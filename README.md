@@ -7,8 +7,6 @@ AWS CodeBuild. It does three things:
 
 1. Shims `/bin/bash`
 2. Configures flake support
-3. Installs [cachix][3]
 
 [1]: https://nixos.org
 [2]: https://aws.amazon.com/codebuild/
-[3]: https://www.cachix.org
