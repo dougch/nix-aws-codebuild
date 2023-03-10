@@ -5,4 +5,5 @@ RUN ln -s $(which bash) /bin/bash
 
 # Enable flakes
 RUN echo "experimental-features = nix-command flakes" >> /etc/nix/nix.conf
+RUN nix-env -f '<nixpkgs>' -iA ssm-agent
 
