@@ -10,3 +10,22 @@ AWS CodeBuild. It does three things:
 
 [1]: https://nixos.org
 [2]: https://aws.amazon.com/codebuild/
+
+
+
+### Steps to build
+
+With docker, jq and the aws-cli setup:
+
+```
+export AWS_ECR_REPO=YOUR_REPO_URI
+make build
+```
+
+Do some testing....
+
+```
+make login
+make publish
+```
+
